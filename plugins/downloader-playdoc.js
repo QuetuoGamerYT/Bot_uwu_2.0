@@ -22,7 +22,7 @@ let texto1 = `*◉—⌈🔊 𝐏𝐋𝐀𝐘 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓 �
 ❏ 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
 ❏ 📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}`.trim()
 let buttonMessage = {
-"document": { url: "https://wa.me/5219992095479" }, 
+"document": { url: "https://wa.me/51924358041" }, 
 "fileName": '❏ 🌿 ʀᴇᴘʀᴏᴅᴜᴄᴛᴏʀ ᴅᴇ ʏᴏᴜᴛᴜʙᴇ', 
 "mimetype": 'application/vnd.ms-excel',
 "caption": texto1,
@@ -40,7 +40,7 @@ contextInfo: {
 "previewType": "VIDEO",
 "thumbnail": await (await fetch(thumbnail)).buffer(),
 "mediaUrl": `${url}`,
-"sourceUrl": `https://github.com/BrunoSobrino/TheMystic-Bot-MD` }}} 
+"sourceUrl": `https://github.com/QuetuoGamerYT/Bot_uwu_2.0.git` }}} 
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 } catch {
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}}
