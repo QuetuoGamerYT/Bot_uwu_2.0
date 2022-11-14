@@ -2,9 +2,9 @@
 
 .github
 node_modules
-tmp
-jadibts
-
+MysticSession
+pluginpilot
 #| Files |#
 
-
+package-lock.json
+database.json
